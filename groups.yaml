@@ -1,0 +1,93 @@
+speedtest:
+  name: Speed Test
+  entities:
+    - sensor.speedtest_download
+    - sensor.speedtest_upload
+    - sensor.speedtest_ping
+
+weather:
+  name: Weather
+  entities:
+    - sensor.pws_temp_c
+    - sensor.pws_feelslike_c
+    - sensor.pws_precip_today_metric
+    - sensor.pws_temp_high_1d_c
+    - sensor.pws_temp_low_1d_c
+    - sensor.pws_weather_1d_metric
+
+#default_view:
+#  view: yes
+#  entities:
+#    - device_tracker.daniel_oneplus3t
+#    - group.speedtest
+#    - group.weather
+
+office_lights:
+  name: Lights
+  entities:
+    - light.office_chair_lamp
+    - light.office_desk_lamp
+office_media:
+  name: Media
+  entities: 
+    - media_player.office_sonos
+    - media_player.orange
+office:
+  name: Office
+  view: yes
+  entities:
+    - group.office_lights
+    - group.office_media
+
+lounge:
+  name: Lounge
+  view: yes
+  entities:
+    - switch.balcony_lights
+
+bedroom:
+  name: Bedroom
+  view: yes
+  entities:
+    - media_player.bedroom_sonos
+
+miflora_58_2e_widgets:
+  name: Sansevieria
+  entities:
+    - sensor.miflora_58_2e_conductivity
+    - sensor.miflora_58_2e_light_intensity
+    - sensor.miflora_58_2e_moisture
+    - sensor.miflora_58_2e_temperature
+    - sensor.miflora_58_2e_battery
+miflora_5b_7d_widgets:
+  name: Capsicum annuum 'Demon Red'
+  entities:
+    - sensor.miflora_5b_7d_conductivity
+    - sensor.miflora_5b_7d_light_intensity
+    - sensor.miflora_5b_7d_moisture
+    - sensor.miflora_5b_7d_temperature
+    - sensor.miflora_5b_7d_battery
+miflora_63_b8_widgets:
+  name: Poinsettia
+  entities:
+    - sensor.miflora_63_b8_conductivity
+    - sensor.miflora_63_b8_light_intensity
+    - sensor.miflora_63_b8_moisture
+    - sensor.miflora_63_b8_temperature
+    - sensor.miflora_63_b8_battery
+miflora_60_c0_widgets:
+  name: Schlumbergera truncata
+  entities:
+    - sensor.miflora_60_c0_conductivity
+    - sensor.miflora_60_c0_light_intensity
+    - sensor.miflora_60_c0_moisture
+    - sensor.miflora_60_c0_temperature
+    - sensor.miflora_60_c0_battery
+plants:
+  name: Plants
+  view: yes
+  entities:
+    - group.miflora_58_2e_widgets
+    - group.miflora_5b_7d_widgets
+    - group.miflora_63_b8_widgets
+    - group.miflora_60_c0_widgets

@@ -1,0 +1,18 @@
+"sensor.miflora_*_battery":
+  friendly_name: Battery
+  icon: mdi:car-battery
+
+"sensor.miflora_*_moisture":
+  friendly_name: Moisture
+  icon: mdi:water-percent
+
+"sensor.miflora_*_light_intensity":
+  friendly_name: Light Intenssity
+  icon: mdi:white-balance-sunny
+
+"sensor.miflora_*_temperature":
+  friendly_name: Temperature
+
+"sensor.miflora_*_conductivity":
+  friendly_name: Fertility
+  icon: mdi:bug

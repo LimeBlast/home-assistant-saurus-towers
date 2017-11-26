@@ -1,0 +1,51 @@
+- platform: wunderground
+  api_key: !secret wunderground_api_key
+  monitored_conditions:
+    - feelslike_c
+    - precip_today_metric
+    - temp_c
+    - temp_high_1d_c
+    - temp_low_1d_c
+    - weather_1d_metric
+- platform: speedtest
+  monitored_conditions:
+    - ping
+    - download
+    - upload
+  server_id: 3110
+- platform: miflora
+  mac: 'C4:7C:8D:65:58:2E'
+  name: miflora_58_2e
+  monitored_conditions:
+    - moisture
+    - light
+    - temperature
+    - conductivity
+    - battery
+- platform: miflora
+  mac: 'C4:7C:8D:65:5B:7D'
+  name: miflora_5b_7d
+  monitored_conditions:
+    - moisture
+    - light
+    - temperature
+    - conductivity
+    - battery
+- platform: miflora
+  mac: 'C4:7C:8D:65:60:C0'
+  name: miflora_60_c0
+  monitored_conditions:
+    - moisture
+    - light
+    - temperature
+    - conductivity
+    - battery
+- platform: miflora
+  mac: 'C4:7C:8D:65:63:B8'
+  name: miflora_63_b8
+  monitored_conditions:
+    - moisture
+    - light
+    - temperature
+    - conductivity
+    - battery

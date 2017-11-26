@@ -1,0 +1,15 @@
+- name: Worcestershire Council Council
+  latitude: 52.185497
+  longitude: -2.183232
+  icon: mdi:city
+
+- name: Foxsoft
+  latitude: 52.617920
+  longitude: -1.630241
+  icon: mdi:domain
+
+# This will override the default home zone
+- name: Home
+  latitude: 52.182094
+  longitude: -2.220231
+  icon: mdi:home-modern
