@@ -82,6 +82,11 @@ mqtt:
   password: 7gggPbzt
   discovery: True
 
+mqtt_statestream:
+  base_topic: homeassistant
+  publish_attributes: true
+  publish_timestamps: true
+
 device_tracker:
   - platform: owntracks
 
