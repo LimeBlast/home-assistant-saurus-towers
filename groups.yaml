@@ -15,12 +15,12 @@ weather:
     - sensor.pws_temp_low_1d_c
     - sensor.pws_weather_1d_metric
 
-#default_view:
-#  view: yes
-#  entities:
-#    - device_tracker.daniel_oneplus3t
-#    - group.speedtest
-#    - group.weather
+default_view:
+  view: yes
+  entities:
+    - device_tracker.daniel_oneplus3t
+    - group.speedtest
+    - group.weather
 
 office_lights:
   name: Lights
