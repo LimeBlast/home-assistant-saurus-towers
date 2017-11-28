@@ -57,6 +57,8 @@ hassio:
 tts:
   - platform: google
 
+alexa:
+
 ifttt:
   key: !secret ifttt_key
 
@@ -99,6 +101,7 @@ calendar:
   - platform: todoist
     token: !secret todoist_api_token
 
+intent_script: !include intents.yaml
 switch: !include switches.yaml
 sensor: !include sensors.yaml
 group: !include groups.yaml
