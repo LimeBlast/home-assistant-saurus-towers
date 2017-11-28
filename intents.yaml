@@ -1,8 +1,10 @@
 PlantStatusIntent:
   speech:
     text: >
-      {% if states.sensor.miflora_58_2e_moisture.state | int > 60 and
-          states.sensor.miflora_5b_7d_moisture.state | int > 60 -%}
+      {% if states.sensor.miflora_58_2e_moisture.state | int > 60 and # Sansevieria
+            states.sensor.miflora_5b_7d_moisture.state | int > 60 and # Capsicum annuum 'Demon Red'
+            states.sensor.miflora_60_c0_moisture.state | int > 60 and # Schlumbergera truncata
+            states.sensor.miflora_63_b8_moisture.state | int > 60 -%} # Poinsettia
         All your plants are fine.
       {%- else -%}
         Some of your plants need attention.
