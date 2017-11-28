@@ -1,7 +1,7 @@
 PlantStatusIntent:
   speech:
     # Sansevieria > 7
-    # Capsicum annuum 'Demon Red > 15
+    # Capsicum annuum 'Demon Red' > 15
     # Schlumbergera truncata > 15
     # Poinsettia > 15
     text: >
@@ -11,7 +11,18 @@ PlantStatusIntent:
             states.sensor.miflora_63_b8_moisture.state | int >= 15 -%}
         All your plants are fine.
       {%- else -%}
-        Some of your plants need attention.
+        {% if states.sensor.miflora_58_2e_moisture.state | int < 7 %}
+          The Sansevieria is at {{ states('sensor.miflora_58_2e_moisture') }} percent moisture.
+        {%- endif %}
+        {% if states.sensor.miflora_5b_7d_moisture.state | int < 15 %}
+          The Capsicum annuum 'Demon Red' is at {{ states('sensor.miflora_5b_7d_moisture') }} percent moisture.
+        {%- endif %}
+        {% if states.sensor.miflora_60_c0_moisture.state | int < 15 %}
+          The Schlumbergera truncata is at {{ states('sensor.miflora_60_c0_moisture') }} percent moisture.
+        {%- endif %}
+        {% if states.sensor.miflora_63_b8_moisture.state | int < 15 %}
+          The Poinsettia is at {{ states('sensor.miflora_63_b8_moisture') }} percent moisture.
+        {%- endif %}
       {%- endif %}
 
 TravelTimeIntent:
