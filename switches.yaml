@@ -1,3 +1,8 @@
 - platform: tplink
   host: 192.168.1.121
   name: Balcony Lights
+
+- platform: flux
+  lights:
+    - light.office_chair_lamp
+    - light.office_desk_lamp
