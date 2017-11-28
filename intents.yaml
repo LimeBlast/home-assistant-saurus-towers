@@ -1,12 +1,12 @@
 PlantStatusIntent:
   speech:
     text: >
-      {%- if states.sensor.miflora_58_2e_moisture.state > 15 and
-          states.sensor.miflora_5b_7d_moisture.state > 15 -%}
+      {% if states.sensor.miflora_58_2e_moisture.state | int > 15 and
+          states.sensor.miflora_5b_7d_moisture.state | int > 15 -%}
         All your plants are fine.
       {%- else -%}
         Some of your plants need attention.
-      {% endif %}
+      {%- endif %}
 
 TravelTimeIntent:
   speech:
