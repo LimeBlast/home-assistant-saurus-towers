@@ -1,8 +1,11 @@
 PlantStatusIntent:
   speech:
     text: >
-      {% if sensor.miflora_63_b8_moisture.state < 60 %}
-        The moisture level of the Poinsettia is {{ states('sensor.miflora_63_b8_moisture') }} percent
+      {%- if sensor.miflora_58_2e_moisture.state > 15 and
+          sensor.miflora_5b_7d_moisture.state > 15 -%}
+        All your plants are fine.
+      {%- else -%}
+        Some of your plants need attention.
       {% endif %}
 
 TravelTimeIntent:
