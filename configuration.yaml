@@ -98,6 +98,10 @@ calendar:
   - platform: todoist
     token: !secret todoist_api_token
 
+device_tracker:
+  - platform: nmap_tracker
+    hosts: 192.168.1.0/254
+
 intent_script: !include_dir_named intents
 switch: !include switches.yaml
 sensor: !include sensors.yaml
