@@ -1,0 +1,2 @@
+speech:
+  text: It will take {{ states('sensor.home_to_foxsoft') }} minutes to get to Foxsoft, and {{ states('sensor.home_to_worcestershire_county_council') }} minutes to get to the county council.

@@ -98,7 +98,7 @@ calendar:
   - platform: todoist
     token: !secret todoist_api_token
 
-intent_script: !include intents.yaml
+intent_script: !include_dir_named intents
 switch: !include switches.yaml
 sensor: !include sensors.yaml
 group: !include groups.yaml
