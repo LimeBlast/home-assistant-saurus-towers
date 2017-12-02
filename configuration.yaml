@@ -100,7 +100,7 @@ calendar:
 
 device_tracker:
   - platform: nmap_tracker
-    hosts: 192.168.1.0/254
+    hosts: 192.168.1.0/24
 
 intent_script: !include_dir_named intents
 switch: !include switches.yaml
