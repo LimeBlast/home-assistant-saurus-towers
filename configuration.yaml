@@ -89,9 +89,6 @@ mqtt_statestream:
   publish_attributes: true
   publish_timestamps: true
 
-device_tracker:
-  - platform: owntracks
-
 notify:
   - platform: html5
     gcm_api_key: !secret gcm_api_key 
