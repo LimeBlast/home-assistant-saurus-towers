@@ -51,11 +51,6 @@
     - battery
 
 - platform: google_travel_time
-  name: Phone To Home
-  api_key: !secret google_api_key
-  origin: device_tracker.daniel_oneplus3t
-  destination: zone.home
-- platform: google_travel_time
   name: Home To Foxsoft
   api_key: !secret google_api_key
   origin: zone.home
