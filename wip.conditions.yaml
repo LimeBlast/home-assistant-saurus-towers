@@ -1,0 +1,18 @@
+condition: or
+  conditions:
+    # Sansevieria > 7
+    - condition: numeric_state
+      entity_id: 'sensor.miflora_58_2e_moisture'
+      above: '7'
+    # Capsicum annuum 'Demon Red' > 15
+    - condition: numeric_state
+      entity_id: 'sensor.miflora_5b_7d_moisture'
+      above: '15'
+    # Schlumbergera truncata > 15
+    - condition: numeric_state
+      entity_id: 'sensor.miflora_60_c0_moisture'
+      above: '15'
+    # Poinsettia > 15
+    - condition: numeric_state
+      entity_id: 'sensor.miflora_63_b8_moisture'
+      above: '15'
