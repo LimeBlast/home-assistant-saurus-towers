@@ -94,10 +94,6 @@ notify:
     gcm_api_key: !secret gcm_api_key 
     gcm_sender_id: !secret gcm_sender_id
 
-device_tracker:
-  - platform: nmap_tracker
-    hosts: 192.168.1.0/24
-
 intent_script: !include_dir_named intents
 switch: !include switches.yaml
 sensor: !include sensors.yaml
