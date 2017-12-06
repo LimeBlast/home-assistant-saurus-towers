@@ -94,10 +94,6 @@ notify:
     gcm_api_key: !secret gcm_api_key 
     gcm_sender_id: !secret gcm_sender_id
 
-calendar:
-  - platform: todoist
-    token: !secret todoist_api_token
-
 device_tracker:
   - platform: nmap_tracker
     hosts: 192.168.1.0/24
