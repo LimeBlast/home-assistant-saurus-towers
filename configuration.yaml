@@ -80,8 +80,6 @@ media_player:
 mqtt:
   broker: 192.168.1.118
   port: 1883
-  username: homeassistant
-  password: 7gggPbzt
   discovery: True
 
 mqtt_statestream:
