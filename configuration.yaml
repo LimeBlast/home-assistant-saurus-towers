@@ -80,7 +80,6 @@ media_player:
 mqtt:
   broker: 192.168.1.118
   port: 1883
-  discovery: True
 
 mqtt_statestream:
   base_topic: homeassistant
