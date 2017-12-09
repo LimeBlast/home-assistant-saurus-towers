@@ -1,2 +1,2 @@
 speech:
-  text: {{ states('sensor.pws_weather_1d_metric') }}
+  text: testing {{ states('sensor.pws_weather_1d_metric') }}
