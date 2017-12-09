@@ -1,2 +1,2 @@
 speech:
-  text: testing {{ states('sensor.pws_weather_1d_metric') }}
+  text: According to Weather underground: {{ states('sensor.pws_weather_1d_metric') }}
