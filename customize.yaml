@@ -1,13 +1,2 @@
-sensor.speedtest_download:
-  friendly_name: Download
-  icon: mdi:download
-
-sensor.speedtest_upload:
-  friendly_name: Upload
-  icon: mdi:upload
-
-sensor.speedtest_ping:
-  friendly_name: Ping
-
 sensor.office_remote_control:
   hidden: true
