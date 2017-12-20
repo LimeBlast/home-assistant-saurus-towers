@@ -54,6 +54,7 @@ bedroom:
 miflora_58_2e_widgets:
   name: Sansevieria
   entities:
+    - plant.sansevieria
     - sensor.miflora_58_2e_conductivity
     - sensor.miflora_58_2e_light_intensity
     - sensor.miflora_58_2e_moisture
