@@ -13,6 +13,8 @@
   name: miflora_58_2e
   force_update: true
   timeout: 60
+  cache: 60*60
+  median: 1
   monitored_conditions:
     - moisture
     - light
@@ -24,6 +26,8 @@
   name: miflora_5b_7d
   force_update: true
   timeout: 60
+  cache: 60*60
+  median: 1
   monitored_conditions:
     - moisture
     - light
@@ -35,6 +39,8 @@
   name: miflora_60_c0
   force_update: true
   timeout: 60
+  cache: 60*60
+  median: 1
   monitored_conditions:
     - moisture
     - light
@@ -46,6 +52,8 @@
   name: miflora_63_b8
   force_update: true
   timeout: 60
+  cache: 60*60
+  median: 1
   monitored_conditions:
     - moisture
     - light
