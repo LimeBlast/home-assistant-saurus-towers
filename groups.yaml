@@ -72,7 +72,7 @@ miflora_5b_7d_widgets:
 miflora_63_b8_widgets:
   name: Poinsettia
   entities:
-    - plant.schlumbergera_truncata
+    - plant.poinsettia
     - sensor.miflora_63_b8_light_intensity
     - sensor.miflora_63_b8_moisture
     - sensor.miflora_63_b8_temperature
@@ -81,7 +81,7 @@ miflora_63_b8_widgets:
 miflora_60_c0_widgets:
   name: Schlumbergera truncata
   entities:
-    - plant.poinsettia
+    - plant.schlumbergera_truncata
     - sensor.miflora_60_c0_light_intensity
     - sensor.miflora_60_c0_moisture
     - sensor.miflora_60_c0_temperature

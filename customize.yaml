@@ -1,2 +1,11 @@
 sensor.office_remote_control:
   hidden: true
+
+plant.sansevieria:
+  friendly_name: Status
+plant.capsicum_annuum_demon_red:
+  friendly_name: Status
+plant.poinsettia:
+  friendly_name: Status
+plant.schlumbergera_truncata:
+  friendly_name: Status
