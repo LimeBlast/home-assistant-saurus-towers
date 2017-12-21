@@ -11,55 +11,15 @@
 - platform: miflora
   mac: 'C4:7C:8D:65:58:2E'
   name: miflora_58_2e
-  force_update: true
-  timeout: 60
-  cache: 60*60
-  median: 1
-  monitored_conditions:
-    - moisture
-    - light
-    - temperature
-    - conductivity
-    - battery
 - platform: miflora
   mac: 'C4:7C:8D:65:5B:7D'
   name: miflora_5b_7d
-  force_update: true
-  timeout: 60
-  cache: 60*60
-  median: 1
-  monitored_conditions:
-    - moisture
-    - light
-    - temperature
-    - conductivity
-    - battery
 - platform: miflora
   mac: 'C4:7C:8D:65:60:C0'
   name: miflora_60_c0
-  force_update: true
-  timeout: 60
-  cache: 60*60
-  median: 1
-  monitored_conditions:
-    - moisture
-    - light
-    - temperature
-    - conductivity
-    - battery
 - platform: miflora
   mac: 'C4:7C:8D:65:63:B8'
   name: miflora_63_b8
-  force_update: true
-  timeout: 60
-  cache: 60*60
-  median: 1
-  monitored_conditions:
-    - moisture
-    - light
-    - temperature
-    - conductivity
-    - battery
 
 - platform: google_travel_time
   name: Home To Foxsoft
