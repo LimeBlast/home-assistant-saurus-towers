@@ -55,34 +55,37 @@ miflora_58_2e_widgets:
   name: Sansevieria
   entities:
     - plant.sansevieria
-    - sensor.miflora_58_2e_conductivity
     - sensor.miflora_58_2e_light_intensity
     - sensor.miflora_58_2e_moisture
     - sensor.miflora_58_2e_temperature
+    - sensor.miflora_58_2e_conductivity
     - sensor.miflora_58_2e_battery
 miflora_5b_7d_widgets:
   name: Capsicum annuum 'Demon Red'
   entities:
-    - sensor.miflora_5b_7d_conductivity
+    - plant.capsicum_annuum_demon_red
     - sensor.miflora_5b_7d_light_intensity
     - sensor.miflora_5b_7d_moisture
     - sensor.miflora_5b_7d_temperature
+    - sensor.miflora_5b_7d_conductivity
     - sensor.miflora_5b_7d_battery
 miflora_63_b8_widgets:
   name: Poinsettia
   entities:
-    - sensor.miflora_63_b8_conductivity
+    - plant.schlumbergera_truncata
     - sensor.miflora_63_b8_light_intensity
     - sensor.miflora_63_b8_moisture
     - sensor.miflora_63_b8_temperature
+    - sensor.miflora_63_b8_conductivity
     - sensor.miflora_63_b8_battery
 miflora_60_c0_widgets:
   name: Schlumbergera truncata
   entities:
-    - sensor.miflora_60_c0_conductivity
+    - plant.poinsettia
     - sensor.miflora_60_c0_light_intensity
     - sensor.miflora_60_c0_moisture
     - sensor.miflora_60_c0_temperature
+    - sensor.miflora_60_c0_conductivity
     - sensor.miflora_60_c0_battery
 plants:
   name: Plants
