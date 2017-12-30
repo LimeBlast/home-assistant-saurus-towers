@@ -18,3 +18,10 @@
   api_key: !secret google_api_key
   origin: zone.home
   destination: zone.worcestershire_county_council
+
+- platform: octoprint
+  name: OctoPrint
+  monitored_conditions:
+    - Current State
+    - Temperatures
+    - Job Percentage
