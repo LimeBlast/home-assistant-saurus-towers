@@ -73,6 +73,10 @@ octoprint:
   bed: true
   number_of_tools: 1
 
+lametric:
+  client_id: !secret lametric_client_id
+  client_secret: !secret lametric_client_secret
+
 # Media players
 media_player:
   - platform: sonos
