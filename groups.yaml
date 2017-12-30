@@ -32,12 +32,24 @@ office_media:
   entities: 
     - media_player.office_sonos
     - media_player.orange
+office_octoprint:
+  name: Octoprint
+  entities:
+    - binary_sensor.octoprint_printing
+    - binary_sensor.octoprint_printing_error
+    - sensor.octoprint_actual_bed_temp
+    - sensor.octoprint_target_bed_temp
+    - sensor.octoprint_actual_tool0_temp
+    - sensor.octoprint_target_tool0_temp
+    - sensor.octoprint_current_state
+    - sensor.octoprint_job_percentage
 office:
   name: Office
   view: yes
   entities:
     - group.office_lights
     - group.office_media
+    - group.office_octoprint
 
 lounge:
   name: Lounge
