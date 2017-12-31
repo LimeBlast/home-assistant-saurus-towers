@@ -102,6 +102,12 @@ notify:
     icon: i96
     cycles: 3
 
+camera:
+  - platform: mjpeg
+    name: Plantcam
+    still_image_url: http://192.168.1.97/picture/1/current/
+    mjpeg_url: http://192.168.1.97:8081
+
 plant: !include plant.yaml
 intent_script: !include_dir_named intents
 switch: !include switches.yaml
