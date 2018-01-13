@@ -32,9 +32,9 @@
   mac: 'C4:7C:8D:65:63:B8'
   name: miflora_63_b8
 
-- platform: octoprint
-  name: OctoPrint
-  monitored_conditions:
-    - Current State
-    - Temperatures
-    - Job Percentage
+#- platform: octoprint
+#  name: OctoPrint
+#  monitored_conditions:
+#    - Current State
+#    - Temperatures
+#    - Job Percentage

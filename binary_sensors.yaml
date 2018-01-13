@@ -1,4 +1,4 @@
-- platform: octoprint
-  monitored_conditions:
-    - Printing
-    - Printing Error
+#- platform: octoprint
+#  monitored_conditions:
+#    - Printing
+#    - Printing Error

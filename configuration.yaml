@@ -66,12 +66,12 @@ ifttt:
 tradfri:
   host: 192.168.1.94
 
-# OctoPrint
-octoprint:
-  host: 192.168.1.103
-  api_key: !secret octoprint_api_key
-  bed: true
-  number_of_tools: 1
+## OctoPrint
+#octoprint:
+#  host: 192.168.1.103
+#  api_key: !secret octoprint_api_key
+#  bed: true
+#  number_of_tools: 1
 
 lametric:
   client_id: !secret lametric_client_id
