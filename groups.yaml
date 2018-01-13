@@ -73,18 +73,18 @@ miflora_58_2e_widgets:
     - sensor.miflora_58_2e_conductivity
     - sensor.miflora_58_2e_battery
 miflora_5b_7d_widgets:
-  name: Capsicum annuum 'Demon Red'
+  name: Olive Tree
   entities:
-    - plant.capsicum_annuum_demon_red
+    - plant.olive_tree
     - sensor.miflora_5b_7d_light_intensity
     - sensor.miflora_5b_7d_moisture
     - sensor.miflora_5b_7d_temperature
     - sensor.miflora_5b_7d_conductivity
     - sensor.miflora_5b_7d_battery
 miflora_63_b8_widgets:
-  name: Poinsettia
+  name: Dracaena Marginata
   entities:
-    - plant.poinsettia
+    - plant.dracaena_marginata
     - sensor.miflora_63_b8_light_intensity
     - sensor.miflora_63_b8_moisture
     - sensor.miflora_63_b8_temperature

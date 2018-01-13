@@ -12,7 +12,7 @@ sansevieria:
   min_conductivity: 300
   max_conductivity: 1000
   min_battery: 15
-capsicum_annuum_demon_red:
+olive_tree:
   sensors:
     moisture: sensor.miflora_5b_7d_moisture
     battery: sensor.miflora_5b_7d_battery
@@ -40,7 +40,7 @@ schlumbergera_truncata:
   min_conductivity: 300
   max_conductivity: 2000
   min_battery: 15
-poinsettia:
+dracaena_marginata:
   sensors:
     moisture: sensor.miflora_63_b8_moisture
     battery: sensor.miflora_63_b8_battery

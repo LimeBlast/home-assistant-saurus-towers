@@ -3,9 +3,9 @@ sensor.office_remote_control:
 
 plant.sansevieria:
   friendly_name: Status
-plant.capsicum_annuum_demon_red:
+plant.olive_tree:
   friendly_name: Status
-plant.poinsettia:
+plant.dracaena_marginata:
   friendly_name: Status
 plant.schlumbergera_truncata:
   friendly_name: Status
