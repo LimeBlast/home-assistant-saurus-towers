@@ -1,1 +1,18 @@
-[]
+- alias: 'Plant Battery Check'
+  initial_state: off
+  trigger:
+    platform: numeric_state
+    entity_id: sensor.miflora_58_2e_battery, sensor.miflora_5b_7d_battery, sensor.miflora_60_c0_battery, sensor.miflora_63_b8_battery
+    below: 10
+    above: 1
+  action:
+     # Actions are scripts so can also be a list of actions
+    - condition: sun
+      after: sunset
+    - condition: time
+      after:  '18:00:00'
+      before: '18:01:00' 
+    - service: notify.lametric
+      data_template:
+        message: >
+          '{{ trigger.from_state.attributes.friendly_name }} NEEDS a new Battery!'
