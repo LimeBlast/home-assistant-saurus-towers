@@ -99,15 +99,19 @@ miflora_60_c0_widgets:
     - sensor.miflora_60_c0_temperature
     - sensor.miflora_60_c0_conductivity
     - sensor.miflora_60_c0_battery
+plant_problems_widgets:
+  name: Plant Problems
+  entities:
+    - sensor.plant_problems
+    - sensor.water_plants_number
+    - sensor.water_plants_friendly
+    - sensor.fertilize_plants_number
 plants:
   name: Plants
   view: yes
   entities:
     - camera.plantcam
-    - sensor.plant_problems
-    - sensor.water_plants_number
-    - sensor.water_plants_friendly
-    - sensor.fertilize_plants_number
+    - group.plant_problems_widgets
     - group.miflora_58_2e_widgets
     - group.miflora_5b_7d_widgets
     - group.miflora_63_b8_widgets
