@@ -17,3 +17,10 @@
       data_template:
         message: >
           '{{ trigger.from_state.attributes.friendly_name }} NEEDS a new Battery!'
+
+- alias: 'Update Plant Problems'
+  trigger:
+    - platform: state
+      entity_id: plant.sansevieria, plant.olive_tree, plant.schlumbergera_truncata, plant.dracaena_marginata
+  action:
+    - service: python_script.plant_problems
