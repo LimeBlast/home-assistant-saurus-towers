@@ -104,6 +104,10 @@ plants:
   view: yes
   entities:
     - camera.plantcam
+    - sensor.plant_problems
+    - sensor.water_plants_number
+    - sensor.water_plants_friendly
+    - sensor.fertilize_plants_number
     - group.miflora_58_2e_widgets
     - group.miflora_5b_7d_widgets
     - group.miflora_63_b8_widgets
