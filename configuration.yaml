@@ -59,6 +59,8 @@ tts:
 
 alexa:
 
+python_script:
+
 ifttt:
   key: !secret ifttt_key
 
