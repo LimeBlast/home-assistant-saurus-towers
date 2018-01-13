@@ -1,3 +1,4 @@
+# taken from https://community.home-assistant.io/t/hass-io-xiaomi-sensor-show-nothing/34695/65?u=limeblast
 - alias: 'Plant Battery Check'
   initial_state: off
   trigger:
