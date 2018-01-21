@@ -11,6 +11,8 @@ sansevieria:
   max_temperature: 32
   min_conductivity: 300
   max_conductivity: 1000
+  min_brightness: 2000
+  max_brightness: 5400
   min_battery: 15
 olive_tree:
   sensors:
@@ -21,12 +23,14 @@ olive_tree:
     brightness: sensor.miflora_5b_7d_light_intensity
   min_moisture: 15
   max_moisture: 60
-  min_temperature: 10
+  min_temperature: 0
   max_temperature: 35
   min_conductivity: 350
   max_conductivity: 2000
+  min_brightness: 4000
+  max_brightness: 8500
   min_battery: 15
-schlumbergera_truncata:
+spider_plant:
   sensors:
     moisture: sensor.miflora_60_c0_moisture
     battery: sensor.miflora_60_c0_battery
@@ -37,8 +41,10 @@ schlumbergera_truncata:
   max_moisture: 60
   min_temperature: 10
   max_temperature: 32
-  min_conductivity: 300
-  max_conductivity: 2000
+  min_conductivity: 350
+  max_conductivity: 1300
+  min_brightness: 1600
+  max_brightness: 2700
   min_battery: 15
 dracaena_marginata:
   sensors:
@@ -49,8 +55,10 @@ dracaena_marginata:
     brightness: sensor.miflora_63_b8_light_intensity
   min_moisture: 15
   max_moisture: 60
-  min_temperature: 8
-  max_temperature: 35
+  min_temperature: 10
+  max_temperature: 32
   min_conductivity: 350
   max_conductivity: 2000
+  min_brightness: 1200
+  max_brightness: 2500
   min_battery: 15

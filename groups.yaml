@@ -91,9 +91,9 @@ miflora_63_b8_widgets:
     - sensor.miflora_63_b8_conductivity
     - sensor.miflora_63_b8_battery
 miflora_60_c0_widgets:
-  name: Schlumbergera truncata
+  name: Spider Plant
   entities:
-    - plant.schlumbergera_truncata
+    - plant.spider_plant
     - sensor.miflora_60_c0_light_intensity
     - sensor.miflora_60_c0_moisture
     - sensor.miflora_60_c0_temperature

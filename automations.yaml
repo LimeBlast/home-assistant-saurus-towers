@@ -21,6 +21,6 @@
 - alias: 'Update Plant Problems'
   trigger:
     - platform: state
-      entity_id: plant.sansevieria, plant.olive_tree, plant.schlumbergera_truncata, plant.dracaena_marginata
+      entity_id: plant.sansevieria, plant.olive_tree, plant.spider_plant, plant.dracaena_marginata
   action:
     - service: python_script.plant_problems
