@@ -12,6 +12,9 @@ default_view:
   view: yes
   entities:
     - group.weather
+    - plant.sansevieria
+    - plant.olive_tree
+    - plant.dracaena_marginata
     - plant.spider_plant
 
 office_lights:
@@ -58,7 +61,6 @@ bedroom:
 miflora_58_2e_widgets:
   name: Sansevieria
   entities:
-    - plant.sansevieria
     - sensor.miflora_58_2e_light_intensity
     - sensor.miflora_58_2e_moisture
     - sensor.miflora_58_2e_temperature
@@ -67,7 +69,6 @@ miflora_58_2e_widgets:
 miflora_5b_7d_widgets:
   name: Olive Tree
   entities:
-    - plant.olive_tree
     - sensor.miflora_5b_7d_light_intensity
     - sensor.miflora_5b_7d_moisture
     - sensor.miflora_5b_7d_temperature
@@ -76,7 +77,6 @@ miflora_5b_7d_widgets:
 miflora_63_b8_widgets:
   name: Dracaena Marginata
   entities:
-    - plant.dracaena_marginata
     - sensor.miflora_63_b8_light_intensity
     - sensor.miflora_63_b8_moisture
     - sensor.miflora_63_b8_temperature
@@ -85,7 +85,6 @@ miflora_63_b8_widgets:
 miflora_60_c0_widgets:
   name: Spider Plant
   entities:
-    - plant.spider_plant
     - sensor.miflora_60_c0_light_intensity
     - sensor.miflora_60_c0_moisture
     - sensor.miflora_60_c0_temperature
