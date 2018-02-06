@@ -118,6 +118,7 @@ intent_script: !include_dir_named intents
 switch: !include switches.yaml
 sensor: !include sensors.yaml
 binary_sensor: !include binary_sensors.yaml
+panel_iframe: !include panel_iframes.yaml
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
