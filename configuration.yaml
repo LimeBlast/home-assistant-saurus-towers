@@ -89,7 +89,7 @@ media_player:
   - platform: roku
 
 mqtt:
-  broker: 192.168.1.118
+  broker: saurustowers.duckdns.org
   port: 1883
 
 mqtt_statestream:
